@@ -1,0 +1,118 @@
+@import url("https://fonts.google.com/specimen/Roboto");
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: white;
+}
+.header {
+    background-color: #1C396E;
+    position: absolute;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.nav {
+    font-size: 20px;
+}
+.nav_link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    margin: 15px;
+}
+.nav_link:hover {
+    color: gold;
+}
+.side {
+    display: flex;
+    padding: 10px;
+    margin-top: 70px;
+    margin-right: 800px;
+    border: gold 2px solid;
+    background-color: #1C396E;
+    box-shadow: gold 0 0 10px;
+    text-align: left;
+    width: 20%;
+    padding: 10px;
+}
+.side a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: color 0.2s linear;
+}
+.side a:hover {
+    color: gold;
+}
+.content {
+    display: flex;
+    padding: 50px;
+    margin-top: -135px;
+    margin-left: 250px;
+    border: gold 2px solid;
+    background-color: #1C396E;
+    box-shadow: gold 0 0 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.content div {
+    position: relative;
+    float: left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 10px;
+}
+.content img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70%;
+    transition: transform 0.2s, z-index 0.2s ease;
+    border-radius: 5px;
+    box-shadow: white 0 0 10px;
+}
+.content img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+.logo2 {
+    color: gold;
+}
+.footer {
+    position: absolute;
+    background-color: #1C396E;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.footer ul {
+    margin-right: 30px;
+    list-style-type: none;
+}
+.footer li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
