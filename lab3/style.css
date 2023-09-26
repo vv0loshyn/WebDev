@@ -1,0 +1,33 @@
+.main-link {
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    transition: 0.15s;
+}
+
+.main-link:hover {
+    font-size:larger;
+    color: rgb(62, 62, 62)
+}
+
+.dishes-card {
+    width: 90%;
+    margin-left: 5%;
+    transition: 0.2s;
+}
+
+.dishes-card:hover {
+    width: 100%;
+    margin: 0;
+}
+.contacts {
+}
+
+.flip {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.flip:hover {
+    transform: rotateY(180deg);
+    transition: transform 0.7s ease;
+}
